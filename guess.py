@@ -18,15 +18,15 @@ for guessesTaken in range(6):
         print('Твое число слишком маленькое.')
 
     if guess > number:
-        print('Твое число слишком большое.')    
+        print('Твое число слишком большое.')
 
     if guess == number:
         break
 
 if guess == number:
-    guessesTaken = str(guessesTaken + 1)        
-    print('Отлично, ' + myName + 'Ты справился за ' + guessesTaken + ' попытки!')
+    guessesTaken = str(guessesTaken + 1)
+    print('Отлично, ' + myName + ' Ты справился за ' + guessesTaken + ' попытки!')
 
 if guess != number:
-    number = str(number)    
+    number = str(number)
     print('Увы. Я загадала число ' + number + '.')
